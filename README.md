@@ -71,5 +71,20 @@ If you end up liking these settings, theoretically, you could create a new empty
 * [SCSS IntelliSense - smart autocomplete of variables, mixins, and functions for all files in the project](https://github.com/mrmlnc/vscode-scss)
 * [VS Code JSHint extension](https://github.com/Microsoft/vscode-jshint)
 
+## PHPCS / Drupal Coder
+To use the PHPCS VS Code extension, you will need to install these globally via Composer. 
+
+```bash
+composer global require squizlabs/php_codesniffer
+composer global require drupal/coder
+```
+
+Then, symlink them:
+
+```bash
+ln -s ~/.composer/vendor/drupal/coder/coder_sniffer/Drupal ~/.composer/vendor/squizlabs/php_codesniffer/src/Standards/Drupal
+ln -s ~/.composer/vendor/drupal/coder/coder_sniffer/Drupal ~/.composer/vendor/squizlabs/php_codesniffer/src/Standards/DrupalPractice
+ln -s ~/.composer/vendor/bin/phpcs /usr/local/bin/phpcs
+```
 
 <a name="kr">1</a>: "The K&R style (Kernighan & Ritchie Style), which is also called "the one true brace style" in hacker jargon (abbreviated as 1TBS), is commonly used in C, C++, and other curly brace programming languages." [https://en.wikipedia.org/wiki/Indentation_style#K&R_style](https://en.wikipedia.org/wiki/Indentation_style#K&R_style)
