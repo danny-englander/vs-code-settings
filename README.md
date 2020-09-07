@@ -53,6 +53,8 @@ If you end up liking these settings, theoretically, you could create a new empty
     *  Set curly braces for *Intelephense* on functions to not go to the next line. 
         `"intelephense.format.braces": "k&r",` **<sup>[1](#kr)</sup>** You would put this in your VS Code `settings.json` file which can be opened from the command palette, `>Preferences: Open Settings (JSON)`
     * Drupal `.module` files not recognized by PHPCS - This is a known issue and there is a pull request open. [Add "extensions" configuration setting #172](https://github.com/ikappas/vscode-phpcs/pull/172) - Since the PR has not been approved yet, a quick fix is here: [https://github.com/ikappas/vscode-phpcs/issues/159#issuecomment-652672079](https://github.com/ikappas/vscode-phpcs/issues/159#issuecomment-652672079)
+    
+     `lintArgs.push('--extensions=inc,install,module,php,profile,theme');`
 
 ## Highlighted extensions
 <a name="list"></a>
