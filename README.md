@@ -10,6 +10,8 @@ The custom VS Coder settings herein focus on a development workflow geared towar
 * SCSS formatting and intelligence
 * Javascript & jQuery code hinting and linting
 
+[(List below)](#list)
+
 ## To get up and running with these settings:
 
 **Warning**: *Syncing these settings will wipe out your own custom settings so it might be a good idea to sync your current settings to a dedicated Gist first.*
@@ -52,7 +54,8 @@ If you end up liking these settings, theoretically, you could create a new empty
         `"intelephense.format.braces": "k&r",` **<sup>[1](#kr)</sup>** You would put this in your VS Code `settings.json` file which can be opened from the command palette, `>Preferences: Open Settings (JSON)`
     * Drupal `.module` files not recognized by PHPCS - This is a known issue and there is a pull request open. [Add "extensions" configuration setting #172](https://github.com/ikappas/vscode-phpcs/pull/172) - Since the PR has not been approved yet, a quick fix is here: [https://github.com/ikappas/vscode-phpcs/issues/159#issuecomment-652672079](https://github.com/ikappas/vscode-phpcs/issues/159#issuecomment-652672079)
 
-## Partial list of extensions
+## Highlighted extensions
+<a name="list"></a>
 
 * [VS Code PHPCS - Integrates phpcs into Visual Studio Code](https://github.com/ikappas/vscode-phpcs)
 * [Bracket Pair Colorizer - allows matching brackets to be identified with colors](https://github.com/CoenraadS/BracketPair)
