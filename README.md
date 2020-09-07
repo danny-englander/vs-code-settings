@@ -17,7 +17,7 @@ The custom VS Coder settings herein focus on a development workflow that focuses
 1. Install the *Settings Sync* extension from within VS Code.
 1. From the command palette: `>Sync > Advanced options > open settings`
 2. Here, you are presented with an option for a Gist ID and custom access token which you will [need to create in your github account](https://github.com/settings/tokens).
-3. Input the Gist ID, `365a204e173853452b436f53cc2fbb28` and the custom access token you just created above.
+3. Input the Gist ID, `365a204e173853452b436f53cc2fbb28` and the custom access token you just created above. (You can see the [full gist here](https://gist.github.com/danny-englander/365a204e173853452b436f53cc2fbb28).)
 4. Now download the custom settings using the keyboard command, `Shift + Option + d`. This will also download dependent extensions into `~/.vscode/extensions`.
 5. Note, if you were already using the sync extension, you may need to set Settings sync to `force download`.
 5. For Xdebug to work, you will need to create a `launch.json` file in the root of your project located at `/.vscode/launch.json`. You can read about the settings, [here](https://github.com/felixfbecker/vscode-php-debug). I use Docksal for my local development environment and here are my custom Xdebug settings that are in `launch.json`. (These settings may vary depending on your local environment setup.)
