@@ -72,7 +72,7 @@ If you end up liking these settings, theoretically, you could create a new empty
 * [VS Code JSHint extension](https://github.com/Microsoft/vscode-jshint)
 
 ## PHPCS / Drupal Coder
-To use the PHPCS VS Code extension, you will need to install these globally via Composer. 
+To use the PHPCS VS Code extension, you will need to install these globally via [Composer](https://getcomposer.org/). 
 
 ```bash
 composer global require squizlabs/php_codesniffer
