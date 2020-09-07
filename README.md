@@ -14,6 +14,8 @@ The custom VS Coder settings herein focus on a development workflow geared towar
 
 **Warning**: *Syncing these settings will wipe out your own custom settings so it might be a good idea to sync your current settings to a dedicated Gist first.*
 
+If you end up liking these settings, theoretically, you could create a new empty Gist and then point and upload to the new Gist with these settings as of course you would not be able to write to my gist.
+
 1. Install the *Settings Sync* extension from within VS Code.
 1. From the command palette: `>Sync > Advanced options > open settings`
 2. Here, you are presented with an option for a Gist ID and custom access token which you will [need to create in your github account](https://github.com/settings/tokens).
