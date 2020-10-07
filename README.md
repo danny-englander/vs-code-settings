@@ -1,6 +1,6 @@
 # Visual Studio Code Custom Settings
 
-The custom VS Coder settings herein focus on a development workflow geared toward PHP, Drupal, Twig, Sass (SCSS), Liquid, and Javascript. You can get up and running with these custom settings by leveraging the [VS Code *Settings Sync* extension](https://github.com/shanalikhan/code-settings-sync). 
+The custom VS Code settings herein focus on a development workflow geared toward PHP, Drupal, Twig, Sass (SCSS), Liquid, and Javascript. You can get up and running with these custom settings by leveraging the [VS Code *Settings Sync* extension](https://github.com/shanalikhan/code-settings-sync). 
 
 ## Highlights
 * PHP code sniffer
